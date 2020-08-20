@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    position: relative;
+    height: 100vh;
+
+}
+nav {
+ border: 2px solid black;
+}
+
+.nav--list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ border: 2px solid blue;
+    list-style-type: none;
+    justify-content: right;
+}
+
+.nav--list-item {
+   margin: .5em .5em;
+   font-size: 1.3em;
+}
+
+.nav--list-item > a {
+    text-decoration: none;
+}
+
+
+.portCard {
+    border: 2px solid green;
+
+}
+
+
+.footer {
+    position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+/* about me styling  */
+.aboutMe {
+    border: 2px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.aboutMe-content {
+flex: 1;
+border: 2px solid orange;
+}
+
+
+.aboutMe-content > img {
+    width: 45%;
+}
+
